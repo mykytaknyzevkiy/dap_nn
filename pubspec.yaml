@@ -1,0 +1,61 @@
+name: dap_app_new
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_local_notifications: ^9.7.0
+  rxdart: ^0.24.0
+  shared_preferences: ^0.5.3+1
+  permission_handler: ^10.0.0
+  google_sign_in: ^4.4.4
+  http: ^0.13.1
+  provider: ^6.0.3
+  syncfusion_flutter_datepicker: ^20.2.46
+  audioplayers: ^1.0.1
+  flutter_slidable: ^0.5.4
+  settings_ui: ^2.0.2
+  sleek_circular_slider: ^1.0.7
+  volume: ^1.0.1
+  slide_popup_dialog: ^0.0.2
+  sliding_up_panel: ^0.3.4
+  webview_flutter: ^0.3.21
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/i18n/en.json
+    - assets/i18n/it.json
+    - assets/images/music_background.jpg
+    - assets/images/mountains.jpg
+    - assets/images/BeFunky-design.png
